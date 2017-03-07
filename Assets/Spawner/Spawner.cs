@@ -23,8 +23,8 @@ public class Spawner : MonoBehaviour
             for (int z = 0; z < gridSize; z++)
             {
                 //Debug.Log("(" + xCord + "," + zCord + ")");
-                zCord = step * x;
-                xCord = step * z;
+                xCord = step * x;
+                zCord = step * z;
                 spawnPoint = new Vector3(xCord, 0, zCord);
                 probability = Random.Range(0, probabilityRangeVal);
                 //Debug.Log(probability);
